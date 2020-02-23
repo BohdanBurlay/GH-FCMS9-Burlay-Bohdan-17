@@ -1,0 +1,54 @@
+.footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.region-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 72px 0 600px 0;
+  background-image: url("../../src/img/Slice_5.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.menu--footer-menu {
+  display: flex;
+
+  & > li {
+    margin-left: 55px;
+
+    & > a {
+      opacity: 0.45;
+      color: #87949e;
+      font-family: $Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.45px;
+
+      &:hover {
+        color: #006944;
+      }
+    }
+
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+  }
+}
+
+.logo-rights > .form-group > .view-footer-logo-rights > .view-content {
+  margin-top: 0;
+}
+
+.footer-rights-block {
+  display: flex;
+  align-items: center;
+}
+
+.sites-rights {
+  @include work-text;
+  margin-left: 20px;
+}

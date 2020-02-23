@@ -1,0 +1,62 @@
+@mixin work-title{
+  color: #576671;
+  font-family: $Raleway;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 96px;
+  letter-spacing: 1.5px;
+}
+@mixin work-text{
+  color: #87949e;
+  font-family: $Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.45px;
+}
+@mixin section-title{
+  color: #576671;
+  font-family: $Raleway;
+  font-size: 60px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+@mixin section-description{
+  font-family: $Roboto;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+  margin-top: 40px;
+  color: #576671;
+  text-align: center;
+}
+@mixin link-learn-more{
+  display: block;
+  margin: 0 auto;
+  max-width: 193px;
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  background-color: #17daa3;
+  color: #ffffff;
+  font-family: "Raleway",sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.35px;
+  text-align: center;
+  padding: 15px 0;
+}
+@mixin slider-styles{
+  width: 74%;
+  margin: 250px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin current-slide-mixin{
+  width: 10px;
+  height: 10px;
+  border: 3px solid white;
+  background: rgba(0,0,0,0);
+  border-radius: 50%;
+  cursor: pointer;
+}

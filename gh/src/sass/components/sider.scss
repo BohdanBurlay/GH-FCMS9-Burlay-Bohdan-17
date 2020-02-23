@@ -1,0 +1,129 @@
+.slider-main-content {
+  @include slider-styles;
+}
+
+.slide-button {
+  width: 27px;
+  height: 53px;
+  color: transparent;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.slider-previous-slide {
+  background-image: url("../../src/img/Left_arrow.png");
+}
+
+.slider-next-slide {
+  background-image: url("../../src/img/Right_Arrow.png");
+}
+
+.slide-title {
+  font-family: $Raleway;
+  font-size: 60px;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+.title-unique {
+  font-weight: 700;
+}
+
+.slider-paragraf {
+  font-family: $Raleway;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  color: white;
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.views-field-field-slider-link > .field-content > a {
+  @include link-learn-more;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 30px;
+  padding: 10px 0;
+}
+
+.current-slide {
+  @include current-slide-mixin;
+}
+
+.slider-wrap {
+  display: flex;
+  flex-direction: column;
+
+  & > .form-group > .view-id-home_slider > .view-content {
+    margin-top: 0;
+  }
+}
+
+.current-slide-div {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px auto 0 auto;
+}
+
+.js-current-slide-class {
+  background-color: white !important;
+}
+
+.member-slider-section {
+  background-image: url("../../src/img/Slice_2.jpg");
+  background-size: cover;
+  padding: 180px 0 140px 0;
+}
+
+.wrap-member-slider {
+  @include slider-styles;
+  margin-top: 0;
+}
+
+.member-slider-previous-slide {
+  background-image: url("../../src/img/Left_arrow.png");
+}
+
+.member-slider-next-slide {
+  background-image: url("../../src/img/Right_Arrow.png");
+}
+
+.views-field-field-member-face > .field-content > img {
+  max-width: 104px;
+  max-height: 104px;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.member-slider-content > .form-group > .view-id-member_slider > .view-content {
+  margin-top: 0;
+}
+
+.member-slider-title {
+  color: #ffffff;
+  font-family: $Raleway;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 45px;
+}
+
+.member-slider-unique {
+  color: #17daa3;
+}
+
+.slider-text {
+  opacity: 0.3;
+  color: #ffffff;
+  font-family: $Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 38px;
+  text-align: center;
+}
+
+.member-current-slide {
+  @include current-slide-mixin;
+}
